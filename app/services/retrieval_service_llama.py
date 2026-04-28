@@ -33,6 +33,7 @@ def setup_hybrid_query_engine():
     Settings.embed_model = HuggingFaceEmbedding(
         model_name=config.EMBEDDING_MODEL,
         device=device,
+    
     )
     Settings.llm = None
     index = VectorStoreIndex.from_vector_store(

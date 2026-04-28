@@ -12,7 +12,7 @@ import hashlib
 from app.core.config import settings as config
 from app.db.Chroma_clientV2 import get_collection
 from pathlib import Path
-
+BATCH_SIZE = 300 
 def clean_metadata(raw_meta: dict) -> dict:
     source_path = raw_meta.get("source") or raw_meta.get("file_path") or ""
     file_name = Path(source_path).name if source_path else raw_meta.get("file_name", "")
@@ -116,10 +116,13 @@ def ingest_pharma_data_hybrid(input_dir: str = "data/raw") -> Dict[str, Any]:
         docstore=docstore,
     )
 
-    VectorStoreIndex(
-        leaf_nodes,
-        storage_context=storage_context,
+    index = VectorStoreIndex(
+    [],
+    storage_context=storage_context,
     )
+    for i in range(0, len(leaf_nodes), BATCH_SIZE):
+        batch = leaf_nodes[i:i + BATCH_SIZE]
+        index.insert_nodes(batch)
 
     # storage_context.persist(persist_dir=config.CHROMA_PERSIST_DIR)
 
