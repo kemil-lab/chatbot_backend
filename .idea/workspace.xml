@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c81d3ce-b6c4-4e8a-91a7-fb94fb75f3db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/rag/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/rag/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/ingest_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/ingest_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/retrieval_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/retrieval_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chroma/5a795c67-0f8a-4e85-9493-8c22a0018075/data_level0.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chroma/5a795c67-0f8a-4e85-9493-8c22a0018075/header.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chroma/5a795c67-0f8a-4e85-9493-8c22a0018075/index_metadata.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chroma/5a795c67-0f8a-4e85-9493-8c22a0018075/length.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chroma/5a795c67-0f8a-4e85-9493-8c22a0018075/link_lists.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chroma/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/data/chroma/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chroma/eval/eval_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ingest_documents.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ingest_documents.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3C3niMIYcItqLA7exqrL8B0dgHv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c81d3ce-b6c4-4e8a-91a7-fb94fb75f3db" name="Changes" comment="" />
+      <created>1775623247171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775623247171</updated>
+      <workItem from="1775623252767" duration="697000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
