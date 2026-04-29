@@ -1,3 +1,4 @@
+from functools import lru_cache
 import os
 from llama_index.core import StorageContext, VectorStoreIndex, Settings
 from llama_index.retrievers.bm25 import BM25Retriever
@@ -15,7 +16,7 @@ from llama_index.vector_stores.chroma import ChromaVectorStore
 
 from app.db.Chroma_clientV2 import get_chroma_client
 # from llama_index.core.node_parser import get_leaf_nodes
-
+@lru_cache(maxsize=1)
 def reRanker():
     return SentenceTransformerRerank(
             model=config.RERANK_MODEL,
